@@ -1,0 +1,31 @@
+{
+  "upload_type": "dataset",
+  "title": "ScamEncyclopedia open data: regulator warning lists, scam taxonomy, fraud statistics",
+  "creators": [
+    { "name": "ScamEncyclopedia" }
+  ],
+  "description": "<p>Open datasets published by <a href=\"https://scamencyclopedia.org\">ScamEncyclopedia</a>, the world's scam warning library. Includes 11,041 regulator warning-list entries (2026-09-07 snapshot) structured via OpenSanctions from 8 official regulators (US SEC PAUSE list, Swiss FINMA, Securities Commission Malaysia, France AMF, Philippines SEC, Malaysia Financial Consumer Alert List, Lithuania illegal financial services, Lithuania Gaming Control Authority), a scam taxonomy of roughly 940 scam sub-types, cited fraud statistics with named sources, and aggregate counts from public threat feeds (abuse.ch URLhaus, MetaMask eth-phishing-detect, FishFish, Have I Been Pwned). Refreshed weekly. Regulator-warnings files are CC-BY-NC 4.0 (OpenSanctions-derived); all other files are CC-BY 4.0. IMPORTANT: when a regulator-warnings row has framing=impersonation, the named firm is the GENUINE firm whose identity was cloned by a scammer, not the subject of the warning.</p>",
+  "access_right": "open",
+  "license": "cc-by-nc-4.0",
+  "keywords": [
+    "fraud",
+    "scams",
+    "regulator-warnings",
+    "consumer-protection",
+    "osint",
+    "open-data"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://scamencyclopedia.org/data",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://github.com/bryanflowers/scamencyclopedia-data",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset"
+    }
+  ],
+  "version": "2026-09-12"
+}

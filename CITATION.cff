@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "ScamEncyclopedia open data: regulator warning lists, scam taxonomy, fraud statistics"
+authors:
+  - name: "ScamEncyclopedia"
+    website: "https://scamencyclopedia.org"
+    email: "hello@scamencyclopedia.org"
+url: "https://scamencyclopedia.org/data"
+repository-code: "https://github.com/bryanflowers/scamencyclopedia-data"
+license: "CC-BY-4.0"
+notes: >-
+  This dataset is dual-licensed. The regulator-warnings.csv and regulator-warnings.json files
+  are licensed CC-BY-NC-4.0 (not CC-BY-4.0) because they carry OpenSanctions-structured rows
+  under OpenSanctions' own CC-BY-NC 4.0 terms. All other files are CC-BY-4.0. See LICENSE.md.
+date-released: "2026-09-12"
+version: "2026-09-12"
+keywords:
+  - fraud
+  - scams
+  - regulator-warnings
+  - consumer-protection
+  - open-data
+  - osint
+abstract: >-
+  Open datasets published by ScamEncyclopedia: 11,041 regulator warning-list entries structured
+  via OpenSanctions from 8 official regulators (US SEC, Swiss FINMA, Securities Commission
+  Malaysia, France AMF, Philippines SEC, Malaysia Financial Consumer Alert List, Lithuania
+  illegal financial services, and Lithuania Gaming Control Authority), a scam taxonomy of
+  roughly 960 scam sub-types (959 at the September 2026 snapshot), cited fraud statistics with named sources, and aggregate counts
+  from public threat feeds. Refreshed weekly.

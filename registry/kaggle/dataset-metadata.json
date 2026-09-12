@@ -1,0 +1,57 @@
+{
+  "title": "ScamEncyclopedia Open Data",
+  "id": "bryanflowers/scamencyclopedia-open-data",
+  "licenses": [
+    { "name": "other" }
+  ],
+  "keywords": [
+    "fraud",
+    "scams",
+    "regulator-warnings",
+    "consumer-protection",
+    "osint"
+  ],
+  "resources": [
+    {
+      "path": "regulator-warnings.csv",
+      "description": "11,041 rows (2026-09-07 snapshot) from 8 official regulator warning lists, structured via OpenSanctions. Licence: CC-BY-NC 4.0 (see description.md) — NOT the Kaggle-standard licence selected above; this field is set to \"other\" because Kaggle's licence list does not include plain CC-BY-NC-4.0.",
+      "schema": {
+        "fields": [
+          { "name": "name", "description": "Name as listed by the regulator", "type": "string" },
+          { "name": "alias", "description": "Known alias(es), if any", "type": "string" },
+          { "name": "category", "description": "Scam/entity category", "type": "string" },
+          { "name": "framing", "description": "impersonation | fictitious-regulator | unauthorised", "type": "string" },
+          { "name": "country", "description": "Country associated with the listing", "type": "string" },
+          { "name": "regulator_key", "description": "Short internal key for the issuing regulator", "type": "string" },
+          { "name": "regulator", "description": "Full name of the issuing regulator", "type": "string" },
+          { "name": "jurisdiction", "description": "Jurisdiction of the issuing regulator", "type": "string" },
+          { "name": "regulator_source_url", "description": "URL of the regulator's own listing", "type": "string" },
+          { "name": "method", "description": "Ingestion method (currently always opensanctions-csv)", "type": "string" },
+          { "name": "license", "description": "Per-row licence string", "type": "string" },
+          { "name": "firm_slug", "description": "ScamEncyclopedia internal slug for the firm/entity", "type": "string" },
+          { "name": "firm_page_url", "description": "ScamEncyclopedia page for the firm/entity", "type": "string" },
+          { "name": "snapshot_date", "description": "Date of the feed snapshot this row was captured from", "type": "date" }
+        ]
+      }
+    },
+    {
+      "path": "scam-taxonomy.csv",
+      "description": "Every node of the ScamEncyclopedia scam taxonomy (category roots, ~940 scam sub-types, and cross-cutting channel/victim-profile/payment-method/red-flag/response-step/reporting-agency nodes). Licence: CC-BY 4.0.",
+      "schema": {
+        "fields": [
+          { "name": "node_slug", "description": "Unique slug for this taxonomy node", "type": "string" },
+          { "name": "parent_slug", "description": "Slug of the parent node, if any", "type": "string" },
+          { "name": "node_type", "description": "Type of node (e.g. category, scam, channel, red-flag)", "type": "string" },
+          { "name": "label", "description": "Display label", "type": "string" },
+          { "name": "description", "description": "Description text", "type": "string" },
+          { "name": "scam_slug", "description": "Related scam slug, if applicable", "type": "string" },
+          { "name": "category_slug", "description": "Related category slug, if applicable", "type": "string" },
+          { "name": "risk_level", "description": "Risk level, if applicable", "type": "string" },
+          { "name": "url", "description": "ScamEncyclopedia page URL for this node", "type": "string" },
+          { "name": "last_reviewed", "description": "Date this node's content was last reviewed", "type": "date" },
+          { "name": "sort_order", "description": "Sort order within its parent", "type": "integer" }
+        ]
+      }
+    }
+  ]
+}
