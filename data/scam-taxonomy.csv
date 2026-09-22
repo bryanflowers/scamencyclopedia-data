@@ -1032,7 +1032,7 @@ dim-response-contact-bank,dim-response,response_step,Contact your bank,,,,,,,2
 dim-response-report,dim-response,response_step,Report to official channels,,,,,,,3
 dim-response-avoid-recovery,dim-response,response_step,Beware recovery scammers,,,,,,,4
 dim-agency,,reporting_agency,Reporting agencies,Cross-cutting dimension: reporting agencies.,,,,,,600
-dim-agency-action-fraud,dim-agency,reporting_agency,Action Fraud (UK),UK national fraud reporting.,,,,,,0
+dim-agency-action-fraud,dim-agency,reporting_agency,Report Fraud (UK),UK national fraud reporting.,,,,,,0
 dim-agency-ftc,dim-agency,reporting_agency,FTC (US),US Federal Trade Commission.,,,,,,1
 dim-agency-ic3,dim-agency,reporting_agency,FBI IC3 (US),US internet crime complaints.,,,,,,2
 dim-agency-scamwatch,dim-agency,reporting_agency,Scamwatch (Australia),Australian scam reporting.,,,,,,3

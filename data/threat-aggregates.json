@@ -1,6 +1,6 @@
 {
   "dataset": "threat-aggregates",
-  "snapshotDate": "2026-09-14",
+  "snapshotDate": "2026-09-21",
   "generatedFrom": "https://scamencyclopedia.org/data",
   "license": "CC-BY 4.0 for this compilation; each source row carries its own licence/attribution string which must be preserved.",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -9,7 +9,7 @@
     {
       "name": "abuse.ch URLhaus",
       "metric": "Malicious URLs reported in the last ~30 days",
-      "value": "12,266 malicious URLs (rolling 30-day feed)",
+      "value": "12,998 malicious URLs (rolling 30-day feed)",
       "url": "https://urlhaus.abuse.ch/",
       "license": "abuse.ch URLhaus, free community data. Aggregate count shown with attribution."
     },
@@ -23,7 +23,7 @@
     {
       "name": "FishFish",
       "metric": "Live phishing & scam domains on the FishFish community blocklist",
-      "value": "43,551 flagged domains",
+      "value": "43,618 flagged domains",
       "url": "https://fishfish.gg/",
       "license": "FishFish community data (keyless API). Aggregate count shown with attribution."
     },
