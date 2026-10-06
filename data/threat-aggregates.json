@@ -1,6 +1,6 @@
 {
   "dataset": "threat-aggregates",
-  "snapshotDate": "2026-09-28",
+  "snapshotDate": "2026-10-05",
   "generatedFrom": "https://scamencyclopedia.org/data",
   "license": "CC-BY 4.0 for this compilation; each source row carries its own licence/attribution string which must be preserved.",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -9,7 +9,7 @@
     {
       "name": "abuse.ch URLhaus",
       "metric": "Malicious URLs reported in the last ~30 days",
-      "value": "14,730 malicious URLs (rolling 30-day feed)",
+      "value": "16,521 malicious URLs (rolling 30-day feed)",
       "url": "https://urlhaus.abuse.ch/",
       "license": "abuse.ch URLhaus, free community data. Aggregate count shown with attribution."
     },
@@ -23,21 +23,21 @@
     {
       "name": "FishFish",
       "metric": "Live phishing & scam domains on the FishFish community blocklist",
-      "value": "43,660 flagged domains",
+      "value": "43,723 flagged domains",
       "url": "https://fishfish.gg/",
       "license": "FishFish community data (keyless API). Aggregate count shown with attribution."
     },
     {
       "name": "Have I Been Pwned",
       "metric": "Known data breaches feeding phishing & impersonation scams",
-      "value": "1,038 breaches tracked, ~17.8 billion accounts exposed (latest: LimeLeads, added 2026-09-22)",
+      "value": "1,039 breaches tracked, ~17.8 billion accounts exposed (latest: Medela, added 2026-09-30)",
       "url": "https://haveibeenpwned.com/",
       "license": "Have I Been Pwned breach directory (public API). Aggregate counts shown with attribution."
     }
   ],
   "breaches": {
-    "total": 1038,
-    "updatedAt": "2026-09-23",
+    "total": 1039,
+    "updatedAt": "2026-10-01",
     "source": "https://haveibeenpwned.com/",
     "note": "Aggregate count of breaches catalogued by Have I Been Pwned; no breach contents are republished."
   }
