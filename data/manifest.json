@@ -1,35 +1,35 @@
 {
   "regulator-warnings.csv": {
-    "bytes": 3457528,
-    "fetchedAt": "2026-10-13T06:17:03Z",
-    "rows": 11164,
-    "sha256": "4c63c7c3a0027a37e7e6aa64ccec2fd44d1d73dd2f140db8fde661587eb01f12",
+    "bytes": 3470613,
+    "fetchedAt": "2026-10-20T06:17:03Z",
+    "rows": 11209,
+    "sha256": "0b8abd8753c4a8fdbc618b6285cee2ab7bd310b9099e63b1bfde22fbfb29b9c9",
     "sourceUrl": "https://scamencyclopedia.org/data/regulator-warnings.csv"
   },
   "regulator-warnings.json": {
-    "bytes": 4693582,
-    "fetchedAt": "2026-10-13T06:17:03Z",
-    "sha256": "0187b8599d782646583a74c77378fbc62ccd08450ef77646d6e632f26ae4cacd",
+    "bytes": 4711677,
+    "fetchedAt": "2026-10-20T06:17:03Z",
+    "sha256": "807023603deee3d70ed458e68ef3db17877e03369e9f6a2bb1c862c43bb05864",
     "sourceUrl": "https://scamencyclopedia.org/data/regulator-warnings.json"
   },
   "scam-statistics.csv": {
     "bytes": 214964,
-    "fetchedAt": "2026-10-13T06:17:03Z",
+    "fetchedAt": "2026-10-20T06:17:03Z",
     "rows": 520,
     "sha256": "e9da9f283ea70d9a31e8a0728485a8b4b2e713c114f2e633776589599cd5b093",
     "sourceUrl": "https://scamencyclopedia.org/data/scam-statistics.csv"
   },
   "scam-taxonomy.csv": {
     "bytes": 259997,
-    "fetchedAt": "2026-10-13T06:17:03Z",
+    "fetchedAt": "2026-10-20T06:17:03Z",
     "rows": 1037,
     "sha256": "10b81fb8e942c8f8f09211612a6895fedd09602684ea079bc281e18f0b3f0106",
     "sourceUrl": "https://scamencyclopedia.org/data/scam-taxonomy.csv"
   },
   "threat-aggregates.json": {
-    "bytes": 2201,
-    "fetchedAt": "2026-10-13T06:17:03Z",
-    "sha256": "426cf4461053e21e212ed7b0fe60efc902a24c3b6ba1934a9bef4cbd4bf0bc53",
+    "bytes": 2211,
+    "fetchedAt": "2026-10-20T06:17:03Z",
+    "sha256": "79b1e00966e8157049421a4fff8d9e9fa7b9aaf3702551541189bf6a775ab4e9",
     "sourceUrl": "https://scamencyclopedia.org/data/threat-aggregates.json"
   }
 }
