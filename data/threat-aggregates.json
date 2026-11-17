@@ -1,6 +1,6 @@
 {
   "dataset": "threat-aggregates",
-  "snapshotDate": "2026-11-09",
+  "snapshotDate": "2026-11-16",
   "generatedFrom": "https://scamencyclopedia.org/data",
   "license": "CC-BY 4.0 for this compilation; each source row carries its own licence/attribution string which must be preserved.",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -10,10 +10,10 @@
     {
       "name": "abuse.ch URLhaus",
       "metric": "Malicious URLs reported in the last ~30 days",
-      "value": "112,859 malicious URLs (rolling 30-day feed)",
+      "value": "114,830 malicious URLs (rolling 30-day feed)",
       "url": "https://urlhaus.abuse.ch/",
       "license": "abuse.ch URLhaus, free community data. Aggregate count shown with attribution.",
-      "fetchedAt": "2026-11-09"
+      "fetchedAt": "2026-11-16"
     },
     {
       "name": "MetaMask eth-phishing-detect",
@@ -21,15 +21,15 @@
       "value": "198,096 blocklisted domains (+ 8 high-risk lookalikes)",
       "url": "https://github.com/MetaMask/eth-phishing-detect",
       "license": "Open-source blocklist (MetaMask). Aggregate count shown with attribution.",
-      "fetchedAt": "2026-11-09"
+      "fetchedAt": "2026-11-16"
     },
     {
       "name": "FishFish",
       "metric": "Live phishing & scam domains on the FishFish community blocklist",
-      "value": "43,914 flagged domains",
+      "value": "43,971 flagged domains",
       "url": "https://fishfish.gg/",
       "license": "FishFish community data (keyless API). Aggregate count shown with attribution.",
-      "fetchedAt": "2026-11-09"
+      "fetchedAt": "2026-11-16"
     },
     {
       "name": "Phishing.Database",
@@ -37,29 +37,29 @@
       "value": "392,178 active phishing domains",
       "url": "https://github.com/mitchellkrogza/Phishing.Database",
       "license": "MIT-licensed community dataset. Aggregate count shown with attribution.",
-      "fetchedAt": "2026-11-09"
+      "fetchedAt": "2026-11-16"
     },
     {
       "name": "CISA Known Exploited Vulnerabilities (KEV)",
       "metric": "Actively-exploited software vulnerabilities catalogued by US CISA",
-      "value": "1,769 catalogued (latest added 2026-11-06)",
+      "value": "1,781 catalogued",
       "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "license": "US Government public domain (count via the NVD hasKev filter).",
-      "fetchedAt": "2026-11-09"
+      "fetchedAt": "2026-11-16"
     },
     {
       "name": "Have I Been Pwned",
       "metric": "Known data breaches feeding phishing & impersonation scams",
-      "value": "1,049 breaches tracked, ~17.8 billion accounts exposed (latest: Harvard, added 2026-11-03)",
+      "value": "1,052 breaches tracked, ~17.9 billion accounts exposed (latest: CastleRAT, added 2026-11-13)",
       "url": "https://haveibeenpwned.com/",
       "license": "Have I Been Pwned breach directory (public API). Aggregate counts shown with attribution.",
-      "fetchedAt": "2026-11-09"
+      "fetchedAt": "2026-11-16"
     }
   ],
   "failures": [],
   "breaches": {
-    "total": 1049,
-    "updatedAt": "2026-11-03",
+    "total": 1052,
+    "updatedAt": "2026-11-13",
     "source": "https://haveibeenpwned.com/",
     "note": "Aggregate count of breaches catalogued by Have I Been Pwned; no breach contents are republished."
   }
